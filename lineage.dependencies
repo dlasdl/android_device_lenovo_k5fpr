@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "SahilSonar/android_vendor_lenovo_k5fpr",
+    "target_path": "vendor/lenovo/k5fpr",
+    "branch": "lineage-15.1"
+  },
+  {
+    "remote": "github",
+    "repository": "SahilSonar/android_kernel_lenovo_k5fpr",
+    "target_path": "kernel/lenovo/k5fpr",
+    "branch": "master"
+  }
+] 

@@ -1,26 +1,17 @@
-How to make a patches after changes in LineageOS source code:
+#Hello, Time to checkout manual ;)
 
-Cd working_dir (For example: cd lineage/frameworks/base)
-git status
-git add .
-git commit -m "name of patch"
-git show HEAD > 0001_.patch
+#Before starting make sure you have cloned your ROM repo and proper build tools are present. 
+# Apply all patches before you continue, you will have to apply patches manually for oreo.
 
-How to launch the LineageOS 14.1 build:
+#Copy below codes :
 
-Download vendor and device from my GitHub.
-Create dirs lenovo/k5fpr and place them in working_dir/device and in working_dir/vendor
-After copy files from downloaded device in working_dir/device , and from downloaded vendor in working_dir/vendor
-Open terminal and write:
+cd WORKINGDIR
 
-cd working_dir
+. build/envsetup.sh 
 
-export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
+export LC_ALL
 
-./device/lenovo/k5fpr/patches/install.sh
+lunch lineage_k5fpr-userdebug && brunch lineage_k5fpr-userdebug 
 
-. build/envsetup.sh
-
-lunch lineage_k5fpr-userdebug && make bacon -j10
-
-Wait for the build to finish, for me ~5hr
+#Compiling is started, this will take around about ~5hrs(Depending on your pc specs)
+# Thankyou for reading! Happy building!

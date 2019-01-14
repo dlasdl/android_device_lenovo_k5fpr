@@ -1,11 +1,16 @@
-# Lenovo K4 Note - LineageOS 15.1 / AOSP 8.1.0
+# Lenovo K4 Note - DotOS 2.x
 ==============
-
-This branch is device for building of the LineageOS 15.1 and Android Oreo 8.1.0 AOSP ROMs. For more information about building the ROM, read our [build manual](manual).
-
 <p align="center">
-<img src="https://www.xda-developers.com/files/2018/09/LineageOS-15.1-1.png" > 
+<img src="https://github.com/DotOS/manifest/blob/dot-o/About.png" > 
 </p>
+
+--------------------------------------------------------------
+
+ Dot OS 2.x - Oreo
+==========
+
+This branch is device for building of the DotOS 2.x Roms. For more information about building the ROM, read our [build manual](manual).
+
 ---
 
 # About Device

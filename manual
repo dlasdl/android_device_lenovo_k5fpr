@@ -11,7 +11,7 @@ cd WORKINGDIR
 
 export LC_ALL
 
-lunch lineage_k5fpr-userdebug && brunch lineage_k5fpr-userdebug 
+lunch dot_k5fpr-userdebug && brunch dot_k5fpr-userdebug 
 
 #Compiling is started, this will take around about ~5hrs(Depending on your pc specs)
 # Thankyou for reading! Happy building!

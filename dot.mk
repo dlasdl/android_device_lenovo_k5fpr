@@ -15,7 +15,7 @@
 #
 
 # Inherit some common dotOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device_k5fpr.mk)
@@ -29,6 +29,6 @@ PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := k5fpr
 PRODUCT_MANUFACTURER := LENOVO
 PRODUCT_MODEL := Lenovo K4 Note
-PRODUCT_NAME := lineage_k5fpr
+PRODUCT_NAME := dot_k5fpr
 PRODUCT_RELEASE_NAME := k5fpr
 PRODUCT_RESTRICT_VENDOR_FILES := false

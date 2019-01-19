@@ -1,3 +1,4 @@
+app/YGPS/YGPS.apk
 bin/6620_launcher
 bin/6620_wmt_concurrency
 bin/6620_wmt_lpbk
